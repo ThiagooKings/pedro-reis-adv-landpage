@@ -100,22 +100,18 @@ background: var(--GREY000);
 .content-aboutme {
   display: grid;
   grid-template-columns: 50% 50%;
-  /* flex-direction: row; */
-  /* justify-content: space-evenly; */
+  column-gap: 95px;
 
   margin: auto;
   
   max-width: 992px;
+  padding-top: 3rem;
 }
 
 .img-aboutme{
-max-width: 475px;
+width: 475px;
+max-width: 100%;
 }
-
-.content-aboutme-text{
-display: flex;
-flex-direction: column;
-}  
 
 h1.title-grey {
 color: var(--GREY002);
@@ -126,6 +122,10 @@ margin-bottom: 0.5rem;
 border-top: var(--YELLOW001) 3px solid;
 height: 5px;
 width: 95px;
+
+padding-bottom: 2rem;
 }
 
-
+.content-text {
+line-height: 30px;
+}
